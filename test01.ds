@@ -1,11 +1,94 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
-<fallback useFallback='true'/>
-<shadowDOM useShadowDOM='true'/>
-<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='' value='' selected='true'/>
-</dialect>
-</step>
-</testcase>
+  <testcase name='' description='script generated from Web Designer' author='Steve_Lafranca_CAYUSE@appvance.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d398b0ae-9ea4-4bf1-ad57-c38b1f4ef49e' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='clickXY' value='"40,53"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a9dd456b-5f93-49de-a216-2a030d670476' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='image(0, _in(div("product_1")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_1&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrAlt' value='image("Ruby on Rails Tote")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Tote"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_1&apos;]/div/div[1]/a/img")' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_1&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div/a/img&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/21/small/ror_tote.jpeg?1527769324")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='image({&apos;itemprop&apos;:&apos;image&apos;})' selected='false' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f4d51753-2c37-4f0a-ae4b-916dabbaa265' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(1, _in(nav("breadcrumbs")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='span(1, _in(nav({&apos;id&apos;:&apos;breadcrumbs&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("Home[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;breadcrumbs&apos;)/ol[@class=&apos;breadcrumb&apos;]/li[1]/span[1]/a[1]/span[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//nav[@id=&apos;breadcrumbs&apos;]/ol/li[1]/span/a/span")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/nav/ol/li/span/a/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='span({&apos;itemprop&apos;:&apos;name&apos;})' selected='false' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='aae87e62-819c-42b4-96f6-20a4e396e3c0' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(4, _in(nav("taxonomies")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(4, _in(nav({&apos;id&apos;:&apos;taxonomies&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Apache")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/t/apache")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='link("list-group-item[4]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Apache"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="/t/apache"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//nav[@id=&apos;taxonomies&apos;]/div[2]/a[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/aside/div/nav/div[2]/a[2]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d60b786f-7f54-468a-b4f3-4c261f6e7fd2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="add-to-cart-button"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("btn btn-success[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="button"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("add-to-cart-button")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("button")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='submit("Add To Cart")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//button[@id=&apos;add-to-cart-button&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/span/button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;add-to-cart-button&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; span[class="input-group-btn"] &gt; button[class="btn btn-success"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#add-to-cart-button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b33de433-0a37-4a18-9390-68526c843f7b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(0, _in(listItem("home-link")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;home-link&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Home")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//li[@id=&apos;home-link&apos;]/a")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Home"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/nav/div/ul/li/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;home-link&apos;)/a[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8a6cfc8a-0cdf-4ab0-909e-79db13ff227c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(0, _in(listItem("link-to-cart")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;link-to-cart&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='link("cart-info full")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/cart")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Cart: (1)  $19.99")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//li[@id=&apos;link-to-cart&apos;]/a")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="cart-info full"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/nav/div/ul[2]/li/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;link-to-cart&apos;)/a[@class=&apos;cart-info full&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[class="cart-info full"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#link-to-cart &gt; .cart-info.full&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="/cart"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+  </testcase>
