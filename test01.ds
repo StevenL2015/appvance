@@ -66,41 +66,4 @@
         <accessor type='unknown' value='l' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='47c91da2-4926-4ef6-b3a4-0f43b2c29bda' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='Parent' value='link(3, _in(nav("taxonomies")))' selected='true' fallback='true'></accessor>
-        <accessor type='Parent' value='link(3, _in(nav({&apos;id&apos;:&apos;taxonomies&apos;})))' selected='false' fallback='true'></accessor>
-        <accessor type='AttrClass' value='link("list-group-item[2]")' selected='false' fallback='true'></accessor>
-        <accessor type='AttrHref' value='link("/t/ruby")' selected='false' fallback='true'></accessor>
-        <accessor type='Text' value='link("Ruby")' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath("//nav[@id=&apos;taxonomies&apos;]/div[2]/a[1]")' selected='false' fallback='true'></accessor>
-        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Ruby"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/aside/div/nav/div[2]/a&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;a[href="/t/ruby"]&apos;)' selected='false' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='982bab0d-0fd1-4d6b-a976-2b550e0309d9' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='Parent' value='link(4, _in(nav("taxonomies")))' selected='true' fallback='true'></accessor>
-        <accessor type='Parent' value='link(4, _in(nav({&apos;id&apos;:&apos;taxonomies&apos;})))' selected='false' fallback='true'></accessor>
-        <accessor type='AttrClass' value='link("list-group-item[3]")' selected='false' fallback='true'></accessor>
-        <accessor type='AttrHref' value='link("/t/apache")' selected='false' fallback='true'></accessor>
-        <accessor type='Text' value='link("Apache")' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath("//nav[@id=&apos;taxonomies&apos;]/div[2]/a[2]")' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/aside/div/nav/div[2]/a[2]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;a[href="/t/apache"]&apos;)' selected='false' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5c10eb41-20c2-4f5f-a7c5-6c5cf23de647' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='Parent' value='link(0, _in(listItem("home-link")))' selected='true' fallback='true'></accessor>
-        <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;home-link&apos;})))' selected='false' fallback='true'></accessor>
-        <accessor type='AttrHref' value='link("/[1]")' selected='false' fallback='true'></accessor>
-        <accessor type='Text' value='link("Home")' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath("//li[@id=&apos;home-link&apos;]/a")' selected='false' fallback='true'></accessor>
-        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Home"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/nav/div/ul/li/a&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;home-link&apos;)/a[1]")' selected='false' fallback='true'></accessor>
-      </dialect>
-    </step>
   </testcase>
