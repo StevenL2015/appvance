@@ -4,9 +4,7 @@
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d398b0ae-9ea4-4bf1-ad57-c38b1f4ef49e' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='//Bags' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='43b32012-cea9-4f2c-b97f-67f9385a35a9' uiType='base'>
       <dialect type='sahi'>
@@ -23,7 +21,6 @@
         <accessor type='JQuery' value='byJQuery(&apos;nav[class="sidebar-item"] &gt; div[class="list-group"] &gt; a[class="list-group-item"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;taxonomies&apos;)/div[@class=&apos;list-group&apos;]/a[@class=&apos;list-group-item&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/aside/div/nav/div/a&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Image' value='byImg(imgSection(readImg(&apos;{resources}/img-2693317.png&apos;),{x:0,y:0,w:1,h:1,cx:0.50,cy:0.50}))' selected='false' fallback='true' imgPath='img-2693317.png' coords='{x:0,y:0,w:1,h:1,cx:0.50,cy:0.50}'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='//Mugs' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f5288d85-0dca-47ab-becd-d734a3a07a0c' uiType='base'>
@@ -41,7 +38,7 @@
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/aside/div/nav/div/a[2]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='assertContainsText' value='Mugs' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='01595568-00fd-4d9a-bbef-f699e5afd0a5' uiType='base'>
+    <step action='assertContainsText' value='Mugs' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='01595568-00fd-4d9a-bbef-f699e5afd0a5' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='&lt;h1 class="taxon-title"&gt;Mugs&lt;/h1&gt;' selected='true' fallback='true'></accessor>
         <accessor type='unknown' value='&lt;h1 class="taxon-title"&gt;' selected='false' fallback='true'></accessor>
@@ -59,7 +56,6 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/t/clothing"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//nav[@id=&apos;taxonomies&apos;]/div[1]/a[3]")' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/aside/div/nav/div/a[3]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Image' value='byImg(imgSection(readImg(&apos;{resources}/img-4692474.png&apos;),{x:0,y:0,w:1,h:1,cx:0.50,cy:0.50}))' selected='false' fallback='true' imgPath='img-4692474.png' coords='{x:0,y:0,w:1,h:1,cx:0.50,cy:0.50}'></accessor>
       </dialect>
     </step>
     <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='cea7b571-43b6-4aff-a4f4-065a90f6f4a7' uiType='base'>
