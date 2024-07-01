@@ -1,0 +1,12 @@
+setVariablesIfNeeded("{ds}/dpl.csv", "HashDPL", 0);
+setFailOnValidations(true);
+prepareDomain($baseURL);
+prepareDomain("https://demosite.appvance.net/");
+setShadowDOM(true);
+setFindOnlyVisible(true);
+setFindOnlyEnabled(true);
+selectMainFrame();
+navigateTo($baseURL);
+click(submit("Search"));
+click(link("Apache Baseball Jersey"));
+click(link(0, _in(list("similar_items_by_taxon"))));

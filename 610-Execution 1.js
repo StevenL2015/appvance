@@ -1,0 +1,12 @@
+setVariablesIfNeeded("{ds}/dpl.csv", "HashDPL", 0);
+setFailOnValidations(true);
+prepareDomain($baseURL);
+prepareDomain("https://demosite.appvance.net/");
+setShadowDOM(true);
+setFindOnlyVisible(true);
+setFindOnlyEnabled(true);
+selectMainFrame();
+navigateTo($baseURL);
+click(submit("Search"));
+click(link(0, _in(div("product_5"))));
+click(link("Products"));

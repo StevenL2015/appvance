@@ -1,0 +1,12 @@
+setVariablesIfNeeded("{ds}/dpl.csv", "HashDPL", 0);
+setFailOnValidations(true);
+prepareDomain($baseURL);
+prepareDomain("https://demosite.appvance.net/");
+setShadowDOM(true);
+setFindOnlyVisible(true);
+setFindOnlyEnabled(true);
+selectMainFrame();
+navigateTo($baseURL);
+click(link("Clothing"));
+click(link("Ruby Baseball Jersey[1]"));
+click(link(0, _in(list("similar_items_by_taxon"))));
