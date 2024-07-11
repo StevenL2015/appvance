@@ -53,6 +53,21 @@
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/aside/div/nav/div/a[3]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
+    <step action='assertExists' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='89ab90b0-813b-4846-8154-a557d2d0c5cd' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='heading1(0, _in(div("content")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='heading1(0, _in(div("content")))' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='heading1(0, _in(div({&apos;id&apos;:&apos;content&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='heading1("taxon-title")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='heading1("Clothing")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;content&apos;]/h1")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="taxon-title"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/h1&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;content&apos;)/h1[@class=&apos;taxon-title&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;body[class="two-col"] &gt; div[class="container"] &gt; div[class="row"] &gt; div[class="col-sm-8 col-md-9"] &gt; h1[class="taxon-title"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#content &gt; .taxon-title&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
     <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='cea7b571-43b6-4aff-a4f4-065a90f6f4a7' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='"{ds}/library.ds"' selected='true' fallback='true'></accessor>
