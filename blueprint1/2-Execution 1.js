@@ -1,0 +1,10 @@
+setVariablesIfNeeded("{ds}/dpl.csv", "HashDPL", 0);
+addSmartTagsLibrary("{ds}/Execution 1.stags");
+setFailOnValidations(true);
+prepareDomain($baseURL);
+prepareDomain("https://demosite.appvance.net/");
+setShadowDOM(true);
+setFindOnlyVisible(true);
+setFindOnlyEnabled(true);
+navigateTo($baseURL);
+click(Listgroupitems('Mugs'));

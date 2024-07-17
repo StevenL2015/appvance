@@ -1,0 +1,36 @@
+{
+    "customTags": [],
+    "extractors": [{
+        "name": "ExtValue",
+        "variable": "href",
+        "disabled": false,
+        "type": "attribute",
+        "when": "preAction",
+        "value": "href"
+    }],
+    "validators": [],
+    "threshold": 0.75,
+    "actions": [],
+    "smartTags": [{
+        "singleton": false,
+        "scanOnePerPage": false,
+        "extractors": ["ExtValue"],
+        "validators": [],
+        "methods": {},
+        "scanOncePerApp": false,
+        "rules": [{
+            "failures": 0,
+            "successes": 0,
+            "weight": 100,
+            "type": "attrContainsValue",
+            "value": "classAPPVANCESPLITTERlist-group-item"
+        }],
+        "type": "Navigation",
+        "tags": ["a"],
+        "name": "Listgroupitems",
+        "disabled": false,
+        "category": "Rule",
+        "actions": [],
+        "info": {}
+    }]
+}
