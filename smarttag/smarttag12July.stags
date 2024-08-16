@@ -30,7 +30,20 @@
 	],
 	"actions": [],
 	"customTags": [],
-	"validators": [],
+	"validators": [
+		{
+			"name": "bags",
+			"when": "postAction",
+			"operator": "elementExists",
+			"type": "",
+			"value": "",
+			"target": "",
+			"where": "locator",
+			"locator": "link(\"/t/bags\")",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	],
 	"extractors": [
 		{
 			"name": "ExtValue",
